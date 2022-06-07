@@ -1,9 +1,8 @@
 spring:
   datasource:
-    password: SAVVION_OWNER
-    username: SAVVION_OWNER
-    url: 'jdbc:oracle:thin:@svuxddb12:1521/DEV2'
-    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:h2:mem:mydb
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
   jpa:
-    hibernate:
-      ddl-auto: update
+    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
