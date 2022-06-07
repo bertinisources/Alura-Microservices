@@ -2,7 +2,7 @@ spring:
   datasource:
     password: SAVVION_OWNER
     username: SAVVION_OWNER
-    url:'jdbc:oracle:thin:@svuxddb12:1521/DEV2'
+    url: 'jdbc:oracle:thin:@svuxddb12:1521/DEV2'
   jpa:
     hibernate:
       ddl-auto: update
