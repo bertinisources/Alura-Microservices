@@ -3,6 +3,7 @@ spring:
     password: SAVVION_OWNER
     username: SAVVION_OWNER
     url: 'jdbc:oracle:thin:@svuxddb12:1521/DEV2'
+    driver-class-name: oracle.jdbc.OracleDriver
   jpa:
     hibernate:
       ddl-auto: update
