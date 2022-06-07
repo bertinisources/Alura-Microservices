@@ -1,8 +1,8 @@
 spring:
   datasource:
-    password: root
-    username: root
-    url: 'jdbc:mysql://localhost:3307/fornecedor'
+    password: SAVVION_OWNER
+    username: SAVVION_OWNER
+    url:'jdbc:oracle:thin:@svuxddb12:1521/DEV2'
   jpa:
     hibernate:
       ddl-auto: update
